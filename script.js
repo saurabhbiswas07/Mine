@@ -59,9 +59,8 @@ function playMidnightChime() {}
 const TARGET_PASSCODE = "0311"; // 4-digit passcode
 
 const SHINCHAN_GIFS = {
-  ask: "assets/shinchan-birthday.png",
+  ask: "./assets/paglu1.jpeg",
   wrong: "./assets/paglu2.jpeg"
- 
 };
 
 let enteredDigits = "";
