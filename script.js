@@ -60,7 +60,7 @@ const TARGET_PASSCODE = "0311"; // 4-digit passcode
 
 const SHINCHAN_GIFS = {
   ask: "assets/shinchan-birthday.png",
-  wrong: "/assets/paglu2.jpeg"
+  wrong: "./assets/paglu2.jpeg"
  
 };
 
@@ -210,9 +210,9 @@ function triggerElementAnim(el, animClass) {
 }
 
 /* ─── SURPRISE CHOICE INTERACTION (YES / NO) ─── */
-const DANCE_GIF_URL = "assets/paglu2.jpeg";
-const PLEADING_GIF_URL = "assets/paglu2.jpeg";
-const EXCITED_GIF_URL = "assets/paglu2.jpeg";
+const DANCE_GIF_URL = "./assets/paglu2.jpeg";
+const PLEADING_GIF_URL = "./assets/paglu2.jpeg";
+const EXCITED_GIF_URL = "./assets/paglu2.jpeg";
 
 function handleChoice(choice) {
   const danceGif = document.getElementById('dance-gif');
